@@ -29,8 +29,7 @@ public class Conversor {
         } catch (NumberFormatException e) {
             System.out.println(Constantes.INTRODUCE_SOLO_NUMEROS);
         } catch (NullPointerException e) {
-            System.out.println(e.getMessage());
-            throw new RuntimeException(e);
+            System.out.println(Constantes.FICHERO_VACIO);
         } finally {
             if (readFileBuffer != null) {
                 readFileBuffer.close();
