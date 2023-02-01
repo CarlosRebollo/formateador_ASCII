@@ -1,8 +1,13 @@
 package mensajes;
 
 public class Constantes {
-    public static final String PATH_DEL_ARCHIVO =
-            "src/main/resources/ASCII2/TIPOSSERVICIO_15_11_2022.ascii";
+
+    /*
+     * Esta constante ha de apuntar a la ruta relativa del archivo ya cambiado su
+     * extensión de *.CSV a *.ASCII para comenzar
+     */
+    public static final String PATH_DEL_ARCHIVO = "src/main/resources/prueba.ascii";
+
     public static final String VOY_A_LEER_LA_COLUMNA_NUMERO = "Voy a leer la columna número ";
     public static final String CUAL_ES_EL_MAXIMO_DE_CARACTERES_QUE_TIENE_LA_COLUMNA = "¿Cuál es el máximo de caracteres que tiene la columna? => ";
     public static final String CARACTER_ES_LEYENDO = " caracter(es), leyendo...\n";
