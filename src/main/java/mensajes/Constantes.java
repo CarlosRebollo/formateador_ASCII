@@ -16,7 +16,7 @@ public class Constantes {
     public static final String QUE_EXCEDE_DE_LA_LONGITUD_DEL_CAMPO = " que excede de la longitud del campo";
     public static final String ALGO_HA_IDO_MAL = "Algo ha ido mal -> ";
     public static final String INTRODUCE_SOLO_NUMEROS = "Introduce solo números";
-    public static final String FICHERO_VACIO = "El fichero no contiene nada de texto";
+    public static final String FICHERO_VACIO = "El fichero está vacío";
     public static final String FICHERO_SOBREESCRITO_CON_EXITO_SALIENDO = "FICHERO SOBREESCRITO CON ÉXITO. Saliendo...";
     public static final String COMA = ",";
     public static final String VACIO = "";
